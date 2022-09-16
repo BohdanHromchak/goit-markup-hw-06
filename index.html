@@ -530,7 +530,7 @@
         <div class="footer-form">
           <label class="footer-form-title" for="subscription">Підпишіться на розсилку</label>
           <div class="footer-form-item">
-          <input class="footer-form-input" id="subscription" placeholder="E-mail"></input>
+          <input class="footer-form-input" type="email"  name="subscription-email" id="subscription" placeholder="E-mail"></input>
          
           <button class="footer-form-btn" type="submit">
             <span class="footer-form-btn-name">Підписатися</span>
@@ -581,13 +581,13 @@
               <textarea
                 class="register-form-message"
                 placeholder="Введіть текст"
-                name=""
+                name="comment"
               ></textarea>
             </label>
           </div>
 
           <label class="register-form-agreement">
-            <input class="register-form-checkbox visually-hidden" type="checkbox" name="" id="" />
+            <input class="register-form-checkbox visually-hidden" type="checkbox" name="agreement"/>
             <svg class="register-form-icons" width="16px" height="15px">
               <use class="icon-checked" href="./images/icons.svg#checked"></use>
               <use class="icon-unchecked" href="/images/icons.svg#unchecked"></use>
