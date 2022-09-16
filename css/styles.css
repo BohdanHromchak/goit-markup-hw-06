@@ -662,12 +662,12 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.register-form-agreement {
-  position: relative;
-}
 
 .register-form-icon {
   position: absolute;
   left: 10px;
-  top: 10px;
+  top: 20px;
+}
+.register-form-field {
+position: relative;
 }
