@@ -642,12 +642,8 @@ img {
   color: var(--primary-text-color);
   margin-bottom: 12px;
 }
-
 .register-form-label {
   display: block;
-}
-.register-form-label {
-  
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -656,7 +652,6 @@ img {
 }
 .register-form-field {
   display: block;
-  position: relative;
 }
 .reegister-form-input {
   width: 100%;
@@ -665,9 +660,14 @@ img {
   padding-right: 42px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
+  border-radius: 4px;
 }
+.register-form-agreement {
+  position: relative;
+}
+
 .register-form-icon {
   position: absolute;
-  bottom: 0;
+  left: 10px;
+  top: 10px;
 }
