@@ -832,6 +832,7 @@ img {
 }
 .register-form-checkbox + .register-form-icons {
   border: 2px solid var(--primary-text-color);
+  border-radius: 2px;
 }
 .register-form-link {
   font-size: 14px;
