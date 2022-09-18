@@ -154,8 +154,12 @@ img {
 }
 .footer-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: baseline;
+}
+.footer-items {
+  margin-right: 70px;
+  flex-grow: 1;
 }
 .page-footer {
   margin: 0 auto;
@@ -216,6 +220,9 @@ img {
   display: flex;
   gap: 10px;
 }
+.footer-socials {
+  margin-right: 93px;
+}
 .footer-socials-link {
   display: flex;
   justify-content: center;
@@ -241,6 +248,9 @@ img {
 
 /* Footer form */
 .footer-form-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-white-color);
   display: block;
@@ -714,6 +724,8 @@ img {
 }
 .register-form-field {
   display: block;
+}
+.register-form-field:not(:last-child) {
   margin-bottom: 10px;
 }
 .register-form-input {
@@ -840,4 +852,3 @@ img {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-   
