@@ -16,7 +16,7 @@
   --icon-fill: #afb1b8;
   --icon-fill-footer: #ffffff1a;
   --placeholder-color: #75757580;
-  --footer-placeholder-color: #FFFFFF99;
+  --footer-placeholder-color: #ffffff99;
 }
 
 body {
@@ -811,6 +811,7 @@ img {
 .register-form-btn:focus {
   background-color: var(--button-background-focus);
 }
+
 .icon-checked {
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -829,9 +830,13 @@ img {
 .register-form-checkbox:focus + .register-form-icons {
   border-radius: 2px;
 }
+.register-form-checkbox + .register-form-icons {
+  border: 2px solid var(--primary-text-color);
+}
 .register-form-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+   
